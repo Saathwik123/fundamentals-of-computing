@@ -1,0 +1,15 @@
+#include<math.h>
+int main()
+{
+     int i,n;
+     float a,b;
+     printf("Enter the number of terms in the series: \n");
+     scanf("%i",&n);
+     for(i=1;i<=n;i++)
+     {
+          a=pow(i,i)/i;
+          b=a+a;
+     }
+     printf("The sum of the series is %f\n",b);
+     return 0;
+}
